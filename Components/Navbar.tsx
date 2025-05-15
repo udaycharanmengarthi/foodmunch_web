@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaBars } from 'react-icons/fa';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
