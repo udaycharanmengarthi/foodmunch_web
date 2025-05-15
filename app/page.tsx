@@ -1,12 +1,13 @@
-import { Navbar } from '@/components/Navbar';
-import { Hero } from '@/components/Hero';
-import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { ExploreMenu } from '@/components/ExploreMenu';
-import { HealthyFood } from '@/components/HealthyFood';
+// Import all section components for the homepage
 import { DeliveryPayment } from '@/components/DeliveryPayment';
-import { ThankYou } from '@/components/ThankYou';
+import { ExploreMenu } from '@/components/ExploreMenu';
 import { FollowUs } from '@/components/FollowUs';
 import { Footer } from '@/components/Footer';
+import { HealthyFood } from '@/components/HealthyFood';
+import { Hero } from '@/components/Hero';
+import { Navbar } from '@/components/Navbar';
+import { ThankYou } from '@/components/ThankYou';
+import { WhyChooseUs } from '@/components/WhyChooseUs';
 
 export default function Home() {
   return (
